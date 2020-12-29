@@ -3,15 +3,15 @@
         "/*": {
            "X-Author": "itmo182954",
            "Access-Control-Allow-Origin": "*",
-           "Content-Type": "text/plain; charset=UTF-8"
         },
         "/login/": {
-           "Access-Control-Allow-Origin": "*",
            "Content-Type": "text/plain; charset=UTF-8"
         },
         "/sample/": {
-           "Access-Control-Allow-Origin": "*",
            "Content-Type": "text/plain; charset=UTF-8"
+        },
+        "/promise/": {
+            "Content-Type": "text/plain; charset=UTF-8"
         }
     }
 }
