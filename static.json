@@ -1,17 +1,32 @@
 {
-    "headers": {
-        "/*": {
-           "X-Author": "itmo182954",
-           "Access-Control-Allow-Origin": "*",
-        },
-        "/login/": {
-           "Content-Type": "text/plain; charset=UTF-8"
-        },
-        "/sample/": {
-           "Content-Type": "text/plain; charset=UTF-8"
-        },
-        "/promise/": {
-            "Content-Type": "text/plain; charset=UTF-8"
-        }
+  "encoding": "UTF-8",
+  "headers": {
+    "/*": {
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Access-Control-Allow-Origin": "*",
+      "X-Author": "itmo182954"
+    },
+    "/login/": {
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Access-Control-Allow-Origin": "*"
+    },
+    "/sample/": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8"
+    },
+    "/promise/": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=UTF-8"
+    },
+    "/fetch/": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/html; charset=UTF-8"
     }
+  },
+  "routes": {
+    "/login/": "login.html",
+    "/sample/": "sample.html",
+    "/promise/": "promise.html",
+    "/fetch/": "fetch.html"
+  }
 }
